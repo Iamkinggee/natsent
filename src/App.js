@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header1 from './Components/Header1'
+import Header2 from './Components/Header2'
+import Navbar from './Components/Navbar'
+import Body from './Components/Main/Body'
+import Info from './Components/Infosection/Info'
+import Newsletter from './Components/newslettersection/Newsletter'
+import Footer from './Components/Footer'
+import Copyright from './Components/Copyright'
+import Checkoutpage from './CheckOutScreen/Checkoutpage'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header1 />   
+      <Navbar />
+      <Header2 /> 
+     <Body /> 
+     <Info/>
+     <Newsletter/> */}
+
+     <Checkoutpage/>
+
+
+
+
+
+
+
+     {/* <Footer/>
+     <Copyright/> */}
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+
+// sticky top-0
