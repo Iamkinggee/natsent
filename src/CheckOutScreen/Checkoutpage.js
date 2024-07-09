@@ -63,24 +63,26 @@
 import React from 'react'
 // import PhoneCard from './PhoneCard'
 import Phone from './Phone'
+import Coupons from './Coupons'
+
+
 
 function Checkoutpage() {
   return (
-    <div>
-        <p>Product Details</p>
+    // <div className='w-full'>
+    <div className='  w-full justify-center items-center m-auto container'>
 
-    <div>
-       
-        <Phone/>
-    </div>    
-
-       
-
-
-
-
-
+    <div  className='p-5 justify-center items-center m-auto container'>
+      <Phone/>
     </div>
+
+
+
+    <Coupons/>
+    </div>
+    
+
+  
   )
 }
 

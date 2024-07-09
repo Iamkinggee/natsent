@@ -10,6 +10,7 @@ import Copyright from './Components/Copyright'
 // import Checkoutpage from './CheckOutScreen/Checkoutpage'
 import Acc from './AccordionFolder/Acc'
 import Product from './Producthovereffect'
+import Checkoutpage from './CheckOutScreen/Checkoutpage'
 
 
 
@@ -17,15 +18,20 @@ import Product from './Producthovereffect'
 function App() {
   return (
     <div>
-     <Header1 />   
+     {/* <Header1 />   
      <Navbar /> 
-     <Header2 /> 
-     <Body />
-     <Info/>
-     <Newsletter/>   
+     <Header2 />  */}
+     {/* <Body />
+     <Info/> */}
+
+
+     <Checkoutpage/>
+
+     
+     {/* <Newsletter/>   
      <Footer/>
-     <Copyright/>
-     <Product/>  
+     <Copyright/> */}
+
     </div>
   )
 }
