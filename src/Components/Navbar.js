@@ -1,4 +1,5 @@
 import React from 'react'
+import menu from '../Icons/menu.png'
 
 function Navbar() {
   return (
@@ -6,7 +7,11 @@ function Navbar() {
        <div className='max-w-[1000px] flex gap-5  p-4 justify-center m-auto mt-7 text-[14px] font-semibold'>
         <div className='flex gap-x-16 bg-orange-300 '>
             <p className=' '>DEPARTMENT</p>
-            <p>0</p>
+            
+
+            <div className='w-5 pt-[5px] justify-center items-center '>
+                <img src={menu} className=' '/>
+            </div>
         </div>
 
 

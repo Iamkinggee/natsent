@@ -2,7 +2,7 @@ import React from 'react'
 
 function BrandName() {
   return (
-    <div className='font-semibold text-[24px]'>NATSENT iPhone Store</div>
+    <div className='font-semibold text-[20px]'>NATSENT iPhone Store</div>
   )
 }
 

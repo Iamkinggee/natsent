@@ -7,29 +7,43 @@ import Info from './Components/Infosection/Info'
 import Newsletter from './Components/newslettersection/Newsletter'
 import Footer from './Components/Footer'
 import Copyright from './Components/Copyright'
-import Checkoutpage from './CheckOutScreen/Checkoutpage'
+// import Checkoutpage from './CheckOutScreen/Checkoutpage'
+import Acc from './AccordionFolder/Acc'
+
+
 
 
 function App() {
   return (
     <div>
-      {/* <Header1 />   
-      <Navbar />
-      <Header2 /> 
+     <Header1 />   
+     <Navbar />
+     <Header2 /> 
      <Body /> 
      <Info/>
-     <Newsletter/> */}
+     <Newsletter/>  
+     {/* <Acc/> */}
+   
 
-     <Checkoutpage/>
-
-
-
-
+     {/* <Checkoutpage/> */}
 
 
+ 
 
-     {/* <Footer/>
-     <Copyright/> */}
+ 
+
+
+
+
+     <Footer/>
+     <Copyright/> 
+
+
+      
+
+
+
+
 
     </div>
   )
