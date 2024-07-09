@@ -33,12 +33,20 @@
 
 
 
-
+import { useHistory } from 'react-router-dom';
 import React from 'react'
 import Product from './Product'
-import Acc from '../../AccordionFolder/Acc'
+import Filter from '../../AccordionFolder/Filter'
 
 function Body() {
+
+
+  // const history = useHistory();
+
+  // const handleClick = () => {
+  //   history.push('/checkout');
+  // };
+
   return (
     // <div className=' grid grid-cols-7'>
     //     <aside className='self-start sticky w-[300px] top-[310px]  col-span-1'>
@@ -82,7 +90,7 @@ function Body() {
 
     <div className='w-full md:w-[1000px] grid grid-cols-1 md:grid-cols-4 mx-auto justify-center items-center'>
     <aside className='self-start sticky top-[310px] md:col-span-1'>
-      <Acc />
+      <Filter />
     </aside>
   
     <main className='md:col-span-3 mt-[5px] md:mt-0'>

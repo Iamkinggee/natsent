@@ -1,13 +1,13 @@
 // App.js 
 
 import logo from './logo.svg'; 
-import './Acc'; 
+import './Filter'; 
 import Accordion from './Accordion';
 import { useState } from 'react'; 
 import { Button } from 'flowbite-react';
 
 
-const Acc = () => { 
+const Filter = () => { 
 	const [accordions, setAccordion] = useState([ 
 		{ 
 			key: 1, 
@@ -311,4 +311,4 @@ const Acc = () => {
 	); 
 }; 
 
-export default Acc; 
+export default Filter; 

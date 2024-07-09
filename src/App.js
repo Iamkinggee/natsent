@@ -8,34 +8,50 @@ import Newsletter from './Components/newslettersection/Newsletter'
 import Footer from './Components/Footer'
 import Copyright from './Components/Copyright'
 // import Checkoutpage from './CheckOutScreen/Checkoutpage'
-import Acc from './AccordionFolder/Acc'
+import Acc from './AccordionFolder/Filter'
 import Product from './Producthovereffect'
 import Checkoutpage from './CheckOutScreen/Checkoutpage'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+
+
+
+
 
 
 
 
 function App() {
   return (
-    <div>
-     {/* <Header1 />   
-     <Navbar /> 
-     <Header2 />  */}
-     {/* <Body />
-     <Info/> */}
+    <>
+    <Header1 />
+    <Navbar />
+    <Header2 />    
+    
+    
+
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Body />} />
+          <Route path="/Checkoutpage" element={<Checkoutpage />} />
+        </Routes>
+      </div>
+    </Router>
 
 
-     <Checkoutpage/>
 
-     
-     {/* <Newsletter/>   
-     <Footer/>
-     <Copyright/> */}
+    <Info/>
+    <Newsletter/>
+    <Footer/>
+    <Copyright/>
 
-    </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
+
 
 
