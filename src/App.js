@@ -17,13 +17,13 @@ function App() {
   return (
     <div>
      <Header1 />   
-     <Navbar />
-     <Header2 /> 
-     <Body /> 
-     <Info/>
-     <Newsletter/>  
-     {/* <Acc/> */}
-   
+    <Navbar /> 
+    <Header2 /> 
+    <Body />
+    <Info/>
+    <Newsletter/>   
+          {/*<Acc/>   */}
+    
 
      {/* <Checkoutpage/> */}
 
@@ -35,8 +35,8 @@ function App() {
 
 
 
-     <Footer/>
-     <Copyright/> 
+    <Footer/>
+     <Copyright/>  
 
 
       

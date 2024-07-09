@@ -287,7 +287,7 @@ const Acc = () => {
 	return ( 
 		<div> 
 			
-			<div className="p-2 m-8 "> 
+			<div className=" justify-center  md:grid hidden "> 
 
 
 
@@ -304,7 +304,7 @@ const Acc = () => {
 				))} 
                  
 
-                 <button className='w-[320px] border-2 border-orange-600/20 h-[40px]  text-orange-500'>Apply</button>
+                 <button className='w-[240px] border-2 border-orange-600/20 h-[40px]  text-orange-500'>Apply</button>
              
 			</div> 
 		</div> 

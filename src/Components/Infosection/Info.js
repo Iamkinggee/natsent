@@ -6,9 +6,11 @@ import Shield from '../../Icons/Shield.png'
 
 function Info() {
   return (
-    <div className='w-full mt-40 border-slate-300 border-t-2 '>
+
+    <div className='w-full border-t-2  mt-40'>
+    <div className=' justify-center items-center m-auto md:w-[1000px]  border-slate-300 '>
     {/* <hr/> */}
-      <div className='  justify-center items-center m-auto  grid grid-cols-2 lg:grid-cols-4 '>
+      <div className='  justify-center items-center m-auto  flex  '>
      
         <div className=' border-slate-300 border-r-2'>
         <InfoCard   image={<img  loading='lazy' src={Cart} alt="Cart" className='  object-contain  p-3  bg-transparent' />} cardtitle="FREE SHIPPING" carddiscription="Free Shipping on world wide order over $100" />
@@ -39,6 +41,7 @@ function Info() {
       </div>
 
 
+    </div>
     </div>
   )
 }

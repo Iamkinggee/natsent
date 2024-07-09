@@ -7,7 +7,7 @@ function Copyright() {
      <div className='max-w-[1000px] justify-center items-center m-auto'>  
 
     
-    <div className='text-[16px] '>COPYRIGHT 2024</div>
+    <div className=' text-[13px] md:text-[18px]  '>COPYRIGHT 2024</div>
     </div>
     </div>
   )

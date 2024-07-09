@@ -8,11 +8,15 @@ function Product() {
 
         
 {/* display products */}
-<div className='grid grid-cols-2 lg:grid-cols-4  pt-[80px] cursor-pointer border-b-2 border-purple-700/20 '>
+{/* <div className='w-full max-w-[700px] justify-center items-center m-auto grid grid-cols-2 md:grid-cols-4  pt-[80px] cursor-pointer border-b-2 border-purple-700/20 '> */}
+
+
+
+<div className='w-full max-w-[1000px] justify-center items-center m-auto md:ml-[100px] grid grid-cols-2 md:grid-cols-4  pt-[80px] cursor-pointer border-b-2 border-purple-700/20 '>
     {product.map((item, index)=>(
     <div key={index} className='border  '>
 
-     <div  className='w-[200px] justify-center items-center m-auto object-cover cursor-pointer'>
+     <div  className='w-[120px] justify-center items-center m-auto object-cover cursor-pointer'>
        <img  loading="lazy" src={item.image} alt={item.name} 
               className='h-100% w-auto' 
         />
