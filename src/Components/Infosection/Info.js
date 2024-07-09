@@ -3,6 +3,7 @@ import InfoCard from './InfoCard'
 import Cart from '../../Icons/Cart.png'
 import Card from '../../Icons/Card.png'
 import Shield from '../../Icons/Shield.png'
+import customercare from '../../Icons/customercare.png'
 
 function Info() {
   return (
@@ -29,7 +30,7 @@ function Info() {
 
 
         <div>
-        <InfoCard image={<img  loading='lazy' src={Shield} alt="Shield" className='  object-contain  p-3  bg-transparent' />}   cardtitle="RELIABLE CUSTOMER CARE" carddiscription="Free Shipping on world wide order over $100"/>
+        <InfoCard image={<img  loading='lazy' src={customercare} alt="Shield" className='  object-contain  p-3  bg-transparent' />}   cardtitle="RELIABLE CUSTOMER CARE" carddiscription="Free Shipping on world wide order over $100"/>
 
         </div>
 

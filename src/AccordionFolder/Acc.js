@@ -287,7 +287,7 @@ const Acc = () => {
 	return ( 
 		<div> 
 			
-			<div className=" justify-center  md:grid hidden "> 
+			<div className=" justify-center hidden md:grid  "> 
 
 
 

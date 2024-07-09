@@ -63,30 +63,43 @@ function Body() {
 
 
 
-
-    // <div className='w-[1000px] grid grid-cols-4 m-auto justify-center items-center'>
-    //     <aside className='self-start sticky  top-[310px]  col-span-1'>
+// working code
+    // <div className='md:w-[1000px] w-[500px] grid grid-cols-4 m-auto justify-center items-center'>
+    //     <aside className=' self-start sticky  top-[310px]  col-span-1'>
          
     //     <Acc/>
     //     </aside>
 
 
-    //     <main className='col-span-3 top-[400px] '>
+    //     <main className=' col-span-3 top-[400px] '>
     //         <Product />
     //     </main>
     // </div>
 
 
 
-    <div className='max-w-[1000px]  m-auto justify-center items-center'>
-        {/* <aside className='self-start sticky  top-[310px]  col-span-1'>
-         
-        <Acc/>
-        </aside> */}
-        <main className=' top-[400px] '>
-            <Product />
-        </main>
-    </div>
+
+
+    <div className='w-full md:w-[1000px] grid grid-cols-1 md:grid-cols-4 mx-auto justify-center items-center'>
+    <aside className='self-start sticky top-[310px] md:col-span-1'>
+      <Acc />
+    </aside>
+  
+    <main className='md:col-span-3 mt-[5px] md:mt-0'>
+      <Product />
+    </main>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
   )
 }
 

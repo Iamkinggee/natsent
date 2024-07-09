@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 import Copyright from './Components/Copyright'
 // import Checkoutpage from './CheckOutScreen/Checkoutpage'
 import Acc from './AccordionFolder/Acc'
+import Product from './Producthovereffect'
 
 
 
@@ -17,34 +18,14 @@ function App() {
   return (
     <div>
      <Header1 />   
-    <Navbar /> 
-    <Header2 /> 
-    <Body />
-    <Info/>
-    <Newsletter/>   
-          {/*<Acc/>   */}
-    
-
-     {/* <Checkoutpage/> */}
-
-
- 
-
- 
-
-
-
-
-    <Footer/>
-     <Copyright/>  
-
-
-      
-
-
-
-
-
+     <Navbar /> 
+     <Header2 /> 
+     <Body />
+     <Info/>
+     <Newsletter/>   
+     <Footer/>
+     <Copyright/>
+     <Product/>  
     </div>
   )
 }
@@ -52,4 +33,3 @@ function App() {
 export default App
 
 
-// sticky top-0
