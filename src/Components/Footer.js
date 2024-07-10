@@ -4,42 +4,29 @@ import Apple from '../Icons/Apple.png'
 
 function Footer () {
   return (
-<div className='w-full pb-5 max-w-[1000px] mx-auto flex-wrap text-[14px] md:text-[15px] grid lg:grid-cols-3 gap-4 text-black'>
-        <div className='pt-[50px] pl-3'>
-                <div className='flex'>
+<div className='w-full pb-5 max-w-[1000px] mx-auto flex-wrap text-[14px] md:text-[15px] grid md:grid-cols-4  md:grid-col-2 gap-4 text-black'>
+
+
+        <div className='pt-[50px] pl-3 md:col-span-2  col-span-1'>
+                <div className='flex '>
                 <div className='w-[15px] '> 
                  <img src={Apple}/>
                  </div>
                 <p className='font-bold px-3  md:text-[34px ]'> NATSENT iPhone Store</p>
                 </div>
 
-            <div>
-            <p className='flex-wrap md:text-[16px] w-[250px]  mt-3'>Many say exploration i part of our destiny it is actually our future.</p>
-            <p className='pt-2'>Address: B1, Fake Street,  Nigeria.</p>
-            <p className='pt-3'> Phone: 0901234567</p>
-             <p className='pt-3'>Email: info@natsent@gmail.com</p>
-            </div>
-
-
-
-
-
-
-
-
-
-
-            {/* <div className='flex justify-between md:w-[75%] my-6'> */}
-                {/* <FaFacebookSquare  size={30}/>
-                <FaTwitterSquare size={30}/>
-                <FaGithubSquare size={30}/>
-                <FaInstagram size={30}/>
-                <FaGithubSquare size={30}/>       */}
-            {/* </div> */}
+                <div>
+                <p className='flex-wrap md:text-[16px]  mt-3'>Many say exploration is part of our destiny, but it is actually our future.</p>
+                <p className='pt-2'>Address: B1, Fake Street,  Nigeria.</p>
+                <p className='pt-3'> Phone: 0901234567</p>
+                <p className='pt-3'>Email: info@natsent@gmail.com</p>
+                </div>
         </div>
 
 
-        <div className='lg:col-span-2 flex justify-between mt-6 '>
+
+
+        <div className='col-span-2 flex justify-between mt-6 '>
             <div className='justify-center items-center m-auto'>
                 <h6 className=' text-black font-bold'>COMPANY</h6>
                 <ul className='text-black'>
@@ -58,23 +45,7 @@ function Footer () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div className='justify-center items-center m-auto '>
+            <div className='col-span-2 justify-center items-center m-auto '>
                 <h6 className='text-black font-bold '>POLICY INFO</h6>
                 <ul className='text-black'>
                  <li className='pt-3 cursor-pointer ' >Orders</li>
@@ -85,7 +56,11 @@ function Footer () {
              </ul>
             </div>
         
-            <div className='justify-center items-center m-auto '>
+
+
+
+
+            <div className='col-span-2 justify-center items-center m-auto '>
                 <h6 className=' text-black font-bold'>MY ACCOUNT</h6>
                 <ul className='text-black'>
                  <li className='pt-3 cursor-pointer'>About Us</li>
