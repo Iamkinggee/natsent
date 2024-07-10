@@ -493,7 +493,7 @@ function Product() {
 
   return (
     <div className='w-full'>
-      <div className='justify-center items-center m-auto md:ml-[10px] grid grid-cols-2 md:grid-cols-4 pt-[80px] cursor-pointer border-b-2 border-purple-700/20'>
+      <div className='justify-center items-center m-auto md:ml-[10px] grid grid-cols-2 md:grid-cols-4 md:pt-[40px] pt-[10px] cursor-pointer border-b-2 border-purple-700/20'>
         {product.map((item, index) => (
           <div key={index} className='border relative group'>
             <div className='w-[120px] justify-center items-center m-auto object-cover cursor-pointer'>

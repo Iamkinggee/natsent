@@ -8,10 +8,10 @@ import customercare from '../../Icons/customercare.png'
 function Info() {
   return (
 
-    <div className='w-full border-t-2  mt-40'>
-    <div className=' justify-center items-center m-auto md:w-[1000px]  border-slate-300 '>
-    {/* <hr/> */}
-      <div className='  justify-center items-center m-auto  flex  '>
+    <div className='w-full mt-40 '>
+    {/* <div className=''> */}
+
+      <div className='  justify-center items-center m-auto  md:flex  grid-cols-2 max-w-[1000px] '>
      
         <div className=' border-slate-300 border-r-2'>
         <InfoCard   image={<img  loading='lazy' src={Cart} alt="Cart" className='  object-contain  p-3  bg-transparent' />} cardtitle="FREE SHIPPING" carddiscription="Free Shipping on world wide order over $100" />
@@ -38,8 +38,8 @@ function Info() {
        
 
        
-
-      </div>
+{/* 
+      </div> */}
 
 
     </div>
@@ -53,4 +53,10 @@ export default Info
 
 
 
-//     image={<img  loading='lazy' src={amastoreImage} alt="/" className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent' />}
+
+
+
+
+
+
+

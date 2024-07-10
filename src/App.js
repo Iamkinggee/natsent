@@ -26,7 +26,7 @@ function App() {
   return (
     <>
     <Header1 />
-    <Navbar />
+    <Navbar /> 
     <Header2 />    
     
     
@@ -35,7 +35,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Body />} />
-          <Route path="/Checkoutpage" element={<Checkoutpage />} />
+          <Route path="/Checkoutpage" Component={<Checkoutpage />} />
         </Routes>
       </div>
     </Router>
@@ -46,6 +46,7 @@ function App() {
     <Newsletter/>
     <Footer/>
     <Copyright/>
+    
 
     </>
   );
