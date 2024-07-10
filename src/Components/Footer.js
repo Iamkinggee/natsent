@@ -3,6 +3,10 @@ import React from 'react'
 import Apple from '../Icons/Apple.png'
 
 function Footer () {
+
+
+
+
   return (
 <div className='w-full pb-5 max-w-[1000px] mx-auto flex-wrap text-[14px] md:text-[15px] grid md:grid-cols-4  md:grid-col-2 gap-4 text-black'>
 

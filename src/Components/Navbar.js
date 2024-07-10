@@ -1,10 +1,20 @@
 import React from 'react'
 import lens from '../Icons/lens.png'
+import Logo from './Logo';
+// import { AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import { useState } from 'react'
 
 function Navbar() {
+
+  const[nav, setNav] = useState(false);
+
+  const handleNav=()=>{
+      setNav(!nav)
+  }
+
   return (
 
-    <div className='w-full bg-green-600 h-20'>
+    <div className='w-full bg-green-600 h-20 '>
 
 <nav className=" p-4">
   <div className="max-w-[1000px] container mx-auto flex justify-between items-center">
@@ -19,9 +29,6 @@ function Navbar() {
       </button>
       </span>
     </div>
-
-
-
 
  
 
@@ -41,15 +48,103 @@ function Navbar() {
     <p className='bg-orange-300 px-2  text-black hidden sm:flex  p-1' >09012834567</p>
    </div>
 
-   <button className="text-white p-2 focus:outline-none md:hidden sm:hidden">
+
+
+
+   
+<div onClick={handleNav} className='block md:hidden cursor-pointer' >
+            
+{/*       
+            {nav? <button className=" text-white p-2 focus:outline-none md:hidden sm:hidden">
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
         </svg>
-      </button>
+      </button>  : <p className='font-bold text-white text-[20px]'>X</p>}
+            
+        </div> */}
+
+
+            {nav? <p className='font-bold text-white text-[20px]'>X</p> :  <button className=" text-white p-2 focus:outline-none md:hidden sm:hidden">
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button> }
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+      {/* <button className="text-white p-2 focus:outline-none md:hidden sm:hidden">
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button> */}
 
       </div>
 
 </nav>
+
+
+
+
+
+
+
+{/* <div onClick={handleNav} className='block md:hidden cursor-pointer' > */}
+            
+            {/* {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/> } */}
+
+
+
+            {/* {nav? <p>Close</p> : <p>Open</p>}
+            
+        </div> */}
+
+        
+
+   {/* mobile side menu */}
+        <div className={nav ? ' fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black/90 ease-in-out duration-500' : 'fixed left-[-100%]'}>
+     
+
+        <div className='text-white py-8 px-8 flex'>
+       
+         <Logo/>
+        
+        {/* review */}
+        {/* {nav? <p className=' cursor-pointer font-bold text-black text-[20px]'>X</p> :  <button className=" text-white p-2 focus:outline-none md:hidden sm:hidden">
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button> } */}
+      </div>
+
+      
+
+     
+
+
+
+
+
+
+
+            <ul className='text-white p-4 border-b border-green-600 uppercase cursor-pointer'>
+            <a><li href="/" className='p-4 border-b border-green-600' >HOME</li></a>
+            <li className='p-4 border-b border-green-600'>SHOP</li>
+            <li className='p-4 border-b border-green-600'>FEATURES</li>
+            <li className='p-4 border-b border-green-600'>BLOGS</li>
+            <li className='p-4'>Contact</li>
+
+            </ul>
+        </div>
+
 
 
 

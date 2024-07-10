@@ -37,6 +37,9 @@ import { useHistory } from 'react-router-dom';
 import React from 'react'
 import Product from './Product'
 import Filter from '../../AccordionFolder/Filter'
+import Info from '../Infosection/Info';
+import Newsletter from '../newslettersection/Newsletter';
+import Header2 from '../Header2';
 
 function Body() {
 
@@ -87,8 +90,9 @@ function Body() {
 
 
 
-
-    <div className='w-full md:w-[1000px] grid grid-cols-1 md:grid-cols-4 mx-auto justify-center items-center'>
+   <>
+    <Header2 />  
+    <div className='w-full  md:w-[1000px] grid grid-cols-1 md:grid-cols-4 mx-auto justify-center items-center'>
     <aside className='self-start sticky top-[310px] md:col-span-1'>
       <Filter />
     </aside>
@@ -96,6 +100,16 @@ function Body() {
     <main className='md:col-span-3 mt-[5px] md:mt-0'>
       <Product />
     </main>
+
+
+
+
+
+
+
+
+
+
   </div>
   
 
@@ -104,10 +118,11 @@ function Body() {
 
 
 
+<Info/>
+<Newsletter/>
 
 
-
-
+  </>
   )
 }
 

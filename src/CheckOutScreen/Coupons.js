@@ -1,15 +1,32 @@
 import React from 'react'
+import coupon from '../Icons/coupon.png'
 
 function Coupons() {
   return (
-    <div className='border w-[500px] justify-center items-center m-auto rounded-2xl'>
+    <div className=' max-w-[1000px]   justify-center items-center m-auto  '>
      
-        <div className='flex m-auto justify-center items-center gap-10 border-b-2'>
+        <div className='m-auto justify-center items-center gap-10  md:w-[510px] w-[410px] py-5 px-2 '>
+        {/* <div className='flex m-auto justify-center items-center gap-10 border-b-2 '> */}
+    
         
-        <div>
-        <p className='text-[23px] font-semibold '>Coupons</p>
-        <p className='text-[15px] py-2'>Apply coupons</p>
-        <p className='text-[12px] pb-5'>This gives you a 20% off discount</p>
+        {/* <div className=' flex  items-center border-2 border-red-400 w-[510px] justify-center  rounded-2xl px-2 md:px-5 md:gap-x-16 '> */}
+
+        <div className='border-2   rounded-2xl '>
+        <div className='flex  items-center  justify-center   px-2 md:px-5 md:gap-x-16 '>
+
+
+        <div >
+        <p className='text-[23px] font-semibold ml-10 py-4 '>Coupons</p>
+
+
+        <div className='flex'>
+          <div className='w-[30px] justify-start items-start ml-10 mt-2 '>
+          <img src={coupon}/>
+          </div>
+        <p className='text-[15px] py-2 px-2'>Apply coupons</p>
+        </div>
+      
+        <p className='text-[12px] pb-5 pl-10'>This gives you a 20% off discount</p>
         
         </div>
         <div>
@@ -70,6 +87,8 @@ function Coupons() {
                     <p className='font-semibold text-white'>Proceed to Checkout</p>
                 </button>
              </div>
+            
+        
 
 
 
@@ -82,15 +101,19 @@ function Coupons() {
 
 
 
+
+
+             </div>
 
 
 
             </div>
+           
 
              
 
           
-            
+            </div>
         </div>
 
 
@@ -107,6 +130,7 @@ function Coupons() {
 
 
     </div>
+ 
   )
 }
 

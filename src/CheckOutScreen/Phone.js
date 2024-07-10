@@ -4,7 +4,8 @@ import iphone from '../assets/iphone.jpg'
 
 function Phone() {
   return (
-    <div className='w-full justify-center items-center m-auto'>
+    <div className='w-full'>
+    <div className='max-w-[1000px] justify-center items-center m-auto'>
     <div className='w-full '>
     {/* // <div className='w-full  h-[350px]  justify-center pt-5 '> */}
 
@@ -22,7 +23,7 @@ function Phone() {
 
 
 
-
+        </div>
     </div>
   )
 }
