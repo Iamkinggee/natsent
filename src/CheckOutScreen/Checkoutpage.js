@@ -3,6 +3,10 @@ import React from 'react'
 // import PhoneCard from './PhoneCard'
 import Phone from './Phone'
 import Coupons from './Coupons'
+import Footer from '../Components/Footer'
+import Copyright from '../Components/Copyright'
+import Header1 from '../Components/Header1'
+import Navbar from '../Components/Navbar'
 
 
 
@@ -10,6 +14,8 @@ import Coupons from './Coupons'
 function Checkoutpage() {
   return (
 <>
+    <Header1 />
+    <Navbar /> 
     <div className='  w-full justify-center items-center border'>
 
 
@@ -35,12 +41,66 @@ function Checkoutpage() {
 
 
 
-    <div  className='p-5 justify-center items-center '>
+    {/* <div  className='p-5 justify-center items-center '>
       <Phone/>
     </div>
 
-    <Coupons/>
+    <Coupons/> */}
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+<div className='md:flex justify-center '>
+  <div>
+  <Phone/>
+  </div>
+  <div>
+  <Coupons/>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
+
+
+
+
+
+
+
+
+
+
+    <div>
+    <Footer/>
+    <Copyright/>
+    </div>
+    
     </>
 
   

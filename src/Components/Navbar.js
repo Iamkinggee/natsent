@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
 
-    <div className='w-full bg-green-600 h-20 '>
+    <div className='w-full bg-green-600 h-20  '>
 
 <nav className=" p-4">
   <div className="max-w-[1000px] container mx-auto flex justify-between items-center">
@@ -64,7 +64,7 @@ function Navbar() {
         </div> */}
 
 
-            {nav? <p className='font-bold text-white text-[20px]'>X</p> :  <button className=" text-white p-2 focus:outline-none md:hidden sm:hidden">
+            {nav? <p className=' font-bold text-white text-[20px] pr-3 '>X</p> :  <button className="pr-4 text-white  focus:outline-none md:hidden sm:hidden  ">
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
         </svg>
@@ -110,10 +110,10 @@ function Navbar() {
         
 
    {/* mobile side menu */}
-        <div className={nav ? ' fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black/90 ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className={nav ? ' fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black/90 ease-in-out duration-500 shadow-xl  shadow-lime-600 ' : 'fixed left-[-100%]  '}>
      
 
-        <div className='text-white py-8 px-8 flex'>
+        <div className='text-white py-8 px-8 flex '>
        
          <Logo/>
         

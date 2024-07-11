@@ -10,10 +10,10 @@ function PhoneCard(props) {
     // <div className=' flex  items-center border-2 rounded-2xl  p-5 gap-x-16 '>
 
 
-
-    <div className='max-w-[1000px]   justify-center items-center m-auto border-b-2 '>
-    <div className=' flex m-auto justify-center items-center  py-5 md:h-[400px]'>
-    <div className=' flex  items-center border-2  w-[510px] justify-center  rounded-2xl px-2 md:px-5 md:gap-x-16 '>
+<>
+    <div className='max-w-[1000px]   justify-center items-center m-auto border-b-2 md:-mt-5 '>
+    <div className=' flex m-auto justify-center items-center md:py-0  py-2 md:h-[390px] '>
+    <div className=' flex  items-center border-2  w-[500px] justify-center  rounded-2xl px-2 md:px-5 md:gap-x-16 md:h-[300px] '>
 
 
 {/* Phone */}
@@ -30,7 +30,27 @@ function PhoneCard(props) {
         <p className='font-semibold px-5 text-[14px]'>{props.phoneName}</p>
         <p className='pt-2 text-[15px] px-5   '>{props.ram} <span className='pl-3 '>{props.rom} </span></p>
         <p className='pt-2 font-semibold px-5 '>{props.color}</p>
-        <p className='pt-5 font-semibold px-5 '>{props.quantity}</p>
+        
+
+        <div className='pl-4 pt-4'>
+          
+        <form action='#' className='w-[100px] flex items-center border-2 h-[34px] outline-none'>
+                <select name='Categories' id='lang' className='focus:outline-none border-none'>
+                  <option className='bg-gray-400'>Qty</option>
+                  <option >1</option>
+                  <option >2 </option>
+                  <option >3</option>
+                  <option >4</option>
+                  <option >5</option>
+                
+                </select>
+       
+                </form>
+        </div>
+
+
+
+
         <p className='pt-2 font-semibold px-5  '>{props.price} | <span className='font-semibold text-green-500 text-[13px]'>20% off</span></p>
         </div>
 
@@ -51,6 +71,7 @@ function PhoneCard(props) {
 
 
 </div>
+</>
   )
 }
 

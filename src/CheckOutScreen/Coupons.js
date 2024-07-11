@@ -16,17 +16,17 @@ function Coupons() {
 
 
         <div >
-        <p className='text-[23px] font-semibold ml-10 py-4 '>Coupons</p>
+        <p className='text-[23px] font-semibold  py-4 '>Coupons</p>
 
 
         <div className='flex'>
-          <div className='w-[30px] justify-start items-start ml-10 mt-2 '>
+          <div className='w-[30px] justify-start items-start  mt-2 '>
           <img src={coupon}/>
           </div>
         <p className='text-[15px] py-2 px-2'>Apply coupons</p>
         </div>
       
-        <p className='text-[12px] pb-5 pl-10'>This gives you a 20% off discount</p>
+        <p className='text-[12px] pb-5 '>This gives you a 20% off discount</p>
         
         </div>
         <div>
@@ -83,9 +83,12 @@ function Coupons() {
 
 
              <div className='justify-center items-center m-auto w-[300px] py-20 '>
+                {/* <a href='/Paymentpage'> */}
+                <a href='/Paymentpage2'>
                 <button className='w-full h-[40px] bg-orange-400'>
                     <p className='font-semibold text-white'>Proceed to Checkout</p>
                 </button>
+                </a>
              </div>
             
         

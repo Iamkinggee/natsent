@@ -4,13 +4,18 @@ import iphone from '../assets/iphone.jpg'
 
 function Phone() {
   return (
-    <div className='w-full'>
-    <div className='max-w-[1000px] justify-center items-center m-auto'>
-    <div className='w-full '>
+    <div className='max-w-[1000px] px-5 justify-center items-center m-auto'>
+    {/* <div className=''> */}
+    <div className=''>
     {/* // <div className='w-full  h-[350px]  justify-center pt-5 '> */}
 
        <div>
-       <PhoneCard color="Color: black" quantity="1" ram="RAM: 4GB" rom="ROM: 64" image={<img  loading='lazy' src={iphone} alt="Cart" className='  object-contain  p-3  bg-transparent' />} phoneName="iphone 11 pro max"  price="$400" />
+       <PhoneCard  
+       
+       
+       
+       
+       color="Color: black" quantity="1" ram="RAM: 4GB" rom="ROM: 64" image={<img  loading='lazy' src={iphone} alt="Cart" className='  object-contain  p-3  bg-transparent' />} phoneName="iphone 11 pro max"  price="$400" />
        </div>
 
 
@@ -24,7 +29,7 @@ function Phone() {
 
 
         </div>
-    </div>
+    // </div>
   )
 }
 
