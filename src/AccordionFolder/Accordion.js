@@ -1,10 +1,13 @@
 // Accordion.js 
 
 export default function Accordion(props) { 
-	return ( 
+	return (
+		
+		
+
+
 		<div className="border rounded-md mb-1"> 
 
-        
 			<button 
 				className="w-full p-4 text-left bg-gray-200 
 						hover:bg-gray-300 transition duration-300"
@@ -23,5 +26,7 @@ export default function Accordion(props) {
 				</div> 
 			)} 
 		</div> 
+
+	
 	); 
 }; 

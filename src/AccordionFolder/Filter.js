@@ -20,7 +20,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>iPhone </span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -29,7 +29,15 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>iPhone pro</span>
+              </label>
+              <label style={{ display: 'block', marginBottom: '10px' }}>
+              <input
+                    style={{ transform: 'scale(1.5)' }} 
+                    type="checkbox"
+                    onChange={(e) => console.log(e.target.checked)}
+                  />
+                <span style={{ paddingLeft: '30px' }}>iPhone pro max</span>
               </label>
               </>
               ),
@@ -46,7 +54,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>Below $500</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -55,7 +63,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>$1000 & Above</span>
               </label>
               </>
               ),
@@ -72,7 +80,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>Black</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -81,7 +89,23 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>Gray</span>
+              </label>
+              <label style={{ display: 'block', marginBottom: '10px' }}>
+              <input
+                    style={{ transform: 'scale(1.5)' }} 
+                    type="checkbox"
+                    onChange={(e) => console.log(e.target.checked)}
+                  />
+                <span style={{ paddingLeft: '30px' }}>White</span>
+              </label>
+              <label style={{ display: 'block', marginBottom: '10px' }}>
+              <input
+                    style={{ transform: 'scale(1.5)' }} 
+                    type="checkbox"
+                    onChange={(e) => console.log(e.target.checked)}
+                  />
+                <span style={{ paddingLeft: '30px' }}>Blue</span>
               </label>
               </>
               ),
@@ -98,7 +122,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>64gb</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -107,7 +131,16 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>256gb</span>
+              </label>
+
+              <label style={{ display: 'block', marginBottom: '10px' }}>
+              <input
+                    style={{ transform: 'scale(1.5)' }} 
+                    type="checkbox"
+                    onChange={(e) => console.log(e.target.checked)}
+                  />
+                <span style={{ paddingLeft: '30px' }}>1Tb</span>
               </label>
               </>
               ),
@@ -124,7 +157,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>Fairly used</span>          
               </label> 
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -133,7 +166,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>Brand New</span>
               </label>
               </>
               ),
@@ -150,7 +183,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>20% Off</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -159,7 +192,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>50% Off</span>
               </label>
               </>
               ),
@@ -176,7 +209,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>2 Camera</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -185,7 +218,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>3 Camera</span>
               </label>
               </>
               ),
@@ -202,7 +235,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>5000mAh & Above</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -211,7 +244,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>5000mAh & Below</span>
               </label>
               </>
               ),
@@ -228,7 +261,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>Made in chinese</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -237,7 +270,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>Made in Japan</span>
               </label>
               </>
               ),
@@ -254,7 +287,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11</span>          
+                <span style={{ paddingLeft: '30px' }}>Mini</span>          
               </label>
 
               <label style={{ display: 'block', marginBottom: '10px' }}>
@@ -263,7 +296,7 @@ const Filter = () => {
                     type="checkbox"
                     onChange={(e) => console.log(e.target.checked)}
                   />
-                <span style={{ paddingLeft: '30px' }}>iPhone 11 pro</span>
+                <span style={{ paddingLeft: '30px' }}>Max</span>
               </label>
               </>
               ),
@@ -285,13 +318,30 @@ const Filter = () => {
 	}; 
 
 	return ( 
-		<div> 
-			
+		<div  className=" justify-center hidden md:grid pt-5 "> 
+
+
+
+<div className='w-full   rounded h-[110px] hidden md:grid border  '>
+     <div className='bg-gray-200 p-3  '>
+      <p>
+      CATEGORIES
+      </p>
+     </div>
+
+
+        <div className='  p-3 '>
+          <p>iPHONE</p>
+        </div>
+      </div>
+
+
+
+
+
+
 			<div className=" justify-center hidden md:grid  "> 
-
-
-
-            <h1 className='py-4'>FILTER BY</h1>
+      <h1 className='py-4 pt-10'>FILTER BY</h1>
 			
 				{accordions.map((accordion) => ( 
 					<Accordion 

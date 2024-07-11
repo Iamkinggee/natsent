@@ -162,16 +162,26 @@ import g from '../Icons/g.png'
 import pay from '../Icons/pay.png'
 import cardd from '../Icons/cardd.png'
 import arrow from '../Icons/arrow.png'
+import { Alert } from 'flowbite-react'
 
 function Paymentpage() {
+
+
+
+    const Message = ()=>{
+        alert("successful")
+    }
+
+
   return (
-    <div className='md:bg-white bg-green-500 h-screen w-full'>
-        <div className='max-w-[500px]  md:pt-20 pt-[200px]  items-center justify-center m-auto px-4'>
-            <div className=' shadow-xl  bg-white   md: md:h-[500px]   h-[505px] w-[400px] rounded-2xl p-5'>
+    <div className=' md:bg-white bg-green-500 h-screen w-full'>
+   
+        <div className='max-w-[500px]  md:pt-20 pt-[200px]  items-center justify-center m-auto px-4  rounded-2xl  '>
+            <div className='shadow-2xl rounded-2xl  bg-white   md:h-[500px]   h-[505px] w-[400px]  p-5'>
 
                 <div className='p-6 '>
 
-                  <a href='checkout'>
+                  <a href='/checkoutpage'>
                   <div className='gap-5 flex'>
                         <div className='w-[25px] pt-1'>
                             <img src={arrow}/>
@@ -236,27 +246,27 @@ function Paymentpage() {
 
                     <div className='py-5'>
 
-                        <form className=''>
-                            <input type='text' placeholder='Enter Name on card' className='border-b-2 w-[300px] focus:outline-none pb-1'/>
+                        <form  className=''>
+                            <input type='text' required placeholder='Enter Name on card' className='border-b-2 w-[300px] focus:outline-none pb-1'/>
 
-                            <input type='text' placeholder='Card Number' className='pt-5 pb-1 border-b-2 w-[300px] focus:outline-none'/>
+                            <input type='number' required placeholder='Card Number' className='pt-5 pb-1 border-b-2 w-[300px] focus:outline-none'/>
 
                             <div className='flex gap-5'>
                                 
-                            <input type='text' placeholder='Expiration' className='  border-b-2 w-[150px] focus:outline-none pt-5 pb-1'/>
+                            <input type='number' required placeholder='Expiration' className='  border-b-2 w-[150px] focus:outline-none pt-5 pb-1'/>
 
                             
-                           <input type='text' placeholder='CVV' className='pt-5 pb-1 border-b-2 w-[130px] focus:outline-none'/>
+                           <input type='number' required placeholder='CVV' className='pt-5 pb-1 border-b-2 w-[130px] focus:outline-none'/>
                             </div>
 
                             <p className='py-5 text-gray-500 text-center text-[13px]'>By Clicking 'Place Your Order' i agree to the companies terms and conditions.</p>
 
 
                             <div className='w-full px-3 md:px-3'>
-                            <button className='bg-yellow-500 m-auto justify-center items-center  p-2 font-semibold text-white w-[300px]'>Place Order</button>
+                            <button onClick={Message}  className='bg-yellow-500 m-auto justify-center items-center  p-2 font-semibold text-white w-[300px]'>Place Order</button>
                             </div>
 
-
+                        
 
 
 

@@ -93,7 +93,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Body />} />
-          <Route path="/Checkout" element={<Checkoutpage />} />
+          <Route path="/Checkoutpage" element={<Checkoutpage />} />
           <Route path="/Paymentpage" element={<Paymentpage />} />
           <Route path="/Paymentpage2" element={<Paymentpage2 />} />
         </Routes>

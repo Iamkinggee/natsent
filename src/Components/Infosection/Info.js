@@ -8,7 +8,7 @@ import customercare from '../../Icons/customercare.png'
 function Info() {
   return (
 
-    <div className='w-full mt-40 '>
+    <div className='w-full mt-7 '>
     {/* <div className=''> */}
 
       <div className='  justify-center items-center m-auto  md:flex  grid-cols-2 max-w-[1000px] '>
