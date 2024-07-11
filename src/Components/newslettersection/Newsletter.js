@@ -36,7 +36,7 @@ function Newsletter() {
 
 
 <div className='flex flex-col sm:flex-row items-center justify-between w-[340px] md:w-full'>
-                    <input className='p-3 flex w-full  text-black' type="email" placeholder='Enter Email' />
+                    <input className='p-3 flex w-full  focus:outline-none text-black' type="email" placeholder='Enter Email' />
                      <button className='hover:scale-105 duration-300 p-3 mt-2  md:mt-[13.4px] px-6 bg-orange-300 w-full  md:w-[200px]  font-medium mx-auto  m-auto text-black'>SUBMIT</button>
                 </div>
 

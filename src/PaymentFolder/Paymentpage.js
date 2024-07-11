@@ -165,9 +165,9 @@ import arrow from '../Icons/arrow.png'
 
 function Paymentpage() {
   return (
-    <div className='md:bg-white rounded-2xl bg-green-600 h-screen w-full'>
+    <div className='md:bg-white bg-green-500 h-screen w-full'>
         <div className='max-w-[500px]  md:pt-20 pt-[200px]  items-center justify-center m-auto px-4'>
-            <div className=' shadow-xl  bg-white  rounded-xl md: md:h-[500px]   h-[500px] w-[400px]'>
+            <div className=' shadow-xl  bg-white   md: md:h-[500px]   h-[505px] w-[400px] rounded-2xl p-5'>
 
                 <div className='p-6 '>
 

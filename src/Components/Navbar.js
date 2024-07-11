@@ -35,8 +35,8 @@ function Navbar() {
       <div className="hidden md:flex flex-grow  ">
       {/* Navigation links for medium and larger screens */}
       <a href="/" className="text-white px-3 py-2 ">HOME</a>
-      <a href="/" className="text-white px-3 py-2 ">SHOP</a>
-      <a href="" className="text-white px-3 py-2">FEATURES</a>
+      <a href="#" className="text-white px-3 py-2 ">SHOP</a>
+      <a href="#" className="text-white px-3 py-2">FEATURES</a>
       <a href="#" className="text-white px-3 py-2">BLOG</a>
     </div>
 
