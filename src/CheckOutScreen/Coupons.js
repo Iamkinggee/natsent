@@ -84,7 +84,7 @@ function Coupons() {
 
              <div className='justify-center items-center m-auto w-[300px] py-20 '>
                 {/* <a href='/Paymentpage'> */}
-                <a href='/Paymentpage2'>
+                <a href='/Paymentpage'>
                 <button className='w-full h-[40px] bg-orange-400'>
                     <p className='font-semibold text-white'>Proceed to Checkout</p>
                 </button>

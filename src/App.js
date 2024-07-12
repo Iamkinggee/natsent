@@ -76,7 +76,7 @@ import Acc from './AccordionFolder/Filter'
 import Product from './Producthovereffect'
 import Checkoutpage from './CheckOutScreen/Checkoutpage'
 import Paymentpage from './PaymentFolder/Paymentpage'
-import Paymentpage2 from './PaymentFolder/Paymentpage2'
+// import Paymentpage2 from './PaymentFolder/Paymentpage2'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -95,7 +95,7 @@ function App() {
           <Route exact path="/" element={<Body />} />
           <Route path="/Checkoutpage" element={<Checkoutpage />} />
           <Route path="/Paymentpage" element={<Paymentpage />} />
-          <Route path="/Paymentpage2" element={<Paymentpage2 />} />
+          {/* <Route path="/Paymentpage2" element={<Paymentpage2 />} /> */}
         </Routes>
       </div>
     </Router>

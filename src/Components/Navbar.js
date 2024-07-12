@@ -32,12 +32,27 @@ function Navbar() {
 
  
 
-      <div className="hidden md:flex flex-grow  ">
+      <div className="hidden md:flex flex-grow  " >
       {/* Navigation links for medium and larger screens */}
-      <a href="/" className="text-white px-3 py-2 ">HOME</a>
-      <a href="#" className="text-white px-3 py-2 ">SHOP</a>
-      <a href="#" className="text-white px-3 py-2">FEATURES</a>
-      <a href="#" className="text-white px-3 py-2">BLOG</a>
+     <a href="/" className="text-white px-3 py-2 ">HOME</a>
+      <a href="#" className="text-gray-300 px-3 py-2 ">SHOP</a>
+      <a href="#" className="text-gray-300 px-3 py-2">FEATURES</a>
+      <a href="#" className="text-gray-300 px-3 py-2">BLOG</a> 
+      <a href="/checkoutpage" className="text-white px- py-2">CART PAGE </a> 
+      <span className='bg-red-500 font-semibold  text-[12px]  h-5 p-1 text-white pb-3   '>
+
+        2
+      </span>
+
+
+
+
+
+
+
+
+      
+
     </div>
 
 
@@ -136,11 +151,13 @@ function Navbar() {
 
 
             <ul className='text-white p-4 border-b border-green-600 uppercase cursor-pointer'>
-            <a><li href="/" className='p-4 border-b border-green-600' >HOME</li></a>
-            <li className='p-4 border-b border-green-600'>SHOP</li>
+            <a href="/"> <li  className='p-4 border-b border-green-600' >HOME</li></a>
+            <a href="/checkoutpage"> <li  className='p-4 border-b border-green-600' >SHOP</li></a>
+      
             <li className='p-4 border-b border-green-600'>FEATURES</li>
             <li className='p-4 border-b border-green-600'>BLOGS</li>
-            <li className='p-4'>Contact</li>
+            <a href="/checkoutpage"> <li  className='p-4  border-green-600' >CART PAGE <span className='bg-red-500 rounded-2xl text-[12px] p-1 px-2'>2</span></li></a>
+            
 
             </ul>
         </div>
