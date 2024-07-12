@@ -7,7 +7,7 @@ import lens from '../Icons/lens.png';
 
 function Header1() {
   return (
-    <div className='w-full py-5'>
+    <div className='w-full py-2'>
       <nav className='p-4'>
         <div className=' max-w-[1000px] container mx-auto flex justify-between items-center'>
           <div className='text-black font-bold'>

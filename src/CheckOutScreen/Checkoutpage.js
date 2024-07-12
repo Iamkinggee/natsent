@@ -36,30 +36,6 @@ function Checkoutpage() {
 
 
 
-
-
-
-
-
-    {/* <div  className='p-5 justify-center items-center '>
-      <Phone/>
-    </div>
-
-    <Coupons/> */}
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
 <div className='md:flex justify-center '>
   <div>
   <Phone/>

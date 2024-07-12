@@ -4,24 +4,7 @@ import g from '../Icons/g.png'
 import pay from '../Icons/pay.png'
 import cardd from '../Icons/cardd.png'
 import arrow from '../Icons/arrow.png'
-// import { Alert } from 'flowbite-react'
 
-// function Paymentpage() {
-
-
-
-//     const Message = ()=>{
-//         alert("successful")
-//     }
-
-
-//   return (
-//     <div className=' w-full md:bg-white bg-green-500 h-screen '>
-   
-//         <div className='max-w-[500px]  md:pt-20 pt-[200px]  items-center justify-center m-auto px-4  rounded-2xl  '>
-//             <div className='shadow-2xl rounded-2xl  bg-white   md:h-[500px]   h-[505px] w-[400px]  p-5'>
-
-//                 <div className='p-6 '>
 
 //                   <a href='/checkoutpage'>
 //                   <div className='gap-5 flex'>
@@ -176,7 +159,7 @@ import arrow from '../Icons/arrow.png'
 
 
 
-
+import last4 from '../assets/last4.png'
 
 import React, { useState } from 'react';
 
@@ -184,8 +167,8 @@ const Paymentpage = () => {
   const [paymentMethod, setPaymentMethod] = useState('creditCard');
 
   return (
-    <div className="flex justify-center items-center p-4 min-h-screen md:bg-white bg-green-500 " >
-      <div className="bg-white border-2  rounded-lg  p-8 w-full max-w-md   md:w-[800px] ">  
+    <div className="flex justify-center items-center p-4 min-h-screen md:bg-white bg-green-700 " >
+      <div className="bg-white border-t border-b border-l  rounded-lg px-4 p-8 w-[400px] max-w-md    md:w-[800px] ">  
        <a href='/checkoutpage'>
        <button className="mb-4 text-gray-600">&larr; Go back</button>
        </a>
@@ -304,8 +287,12 @@ const Paymentpage = () => {
 
     </div>
     
-    <div className='bg-green-600 md:h-[560px] md:w-[300px] rounded-r-xl'>
 
+    {/* <div className='bg-green-600 md:h-[560px] md:w-[300px] rounded-r-xl'> */}
+    <div className='md:h-[562px] md:w-[300px] md:bg-green-white rounded-r-xl border-t border-b  '>
+      <div className='md:w-[560px] hidden md:block'>
+      <img src={last4}/>
+      </div>
       </div>
 
     </div>

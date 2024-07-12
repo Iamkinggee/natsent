@@ -1,6 +1,7 @@
 import React from 'react'
 import PhoneCard from './PhoneCard'
 import iphone from '../assets/iphone.jpg'
+import iphone5 from '../assets/iphone5.png'
 
 function Phone() {
   return (
@@ -20,7 +21,7 @@ function Phone() {
 
 
         <div>
-        <PhoneCard color="Color: silver" quantity="1"  ram="RAM: 4GB" rom="ROM: 64" image={<img  loading='lazy' src={iphone} alt="Cart" className='  object-contain  p-3  bg-transparent' />} phoneName="iphone 12 pro max"  price="$100" />
+        <PhoneCard color="Color: Light Blue"  ram="RAM: 4GB" rom="ROM: 64" image={<img  loading='lazy' src={iphone5} alt="Cart" className='  object-contain  p-3  bg-transparent' />} phoneName="iphone 12 pro max"  price="$600" />
         </div>
         </div>
 
