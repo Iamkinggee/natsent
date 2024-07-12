@@ -96,11 +96,6 @@ function Navbar() {
 
 
 
-      {/* <button className="text-white p-2 focus:outline-none md:hidden sm:hidden">
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
-        </svg>
-      </button> */}
 
       </div>
 
@@ -112,15 +107,7 @@ function Navbar() {
 
 
 
-{/* <div onClick={handleNav} className='block md:hidden cursor-pointer' > */}
-            
-            {/* {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30}/> } */}
 
-
-
-            {/* {nav? <p>Close</p> : <p>Open</p>}
-            
-        </div> */}
 
         
 
@@ -152,10 +139,10 @@ function Navbar() {
 
             <ul className='text-white p-4 border-b border-green-600 uppercase cursor-pointer'>
             <a href="/"> <li  className='p-4 border-b border-green-600' >HOME</li></a>
-            <a href="/checkoutpage"> <li  className='p-4 border-b border-green-600' >SHOP</li></a>
+            <a href="/checkoutpage"> <li  className='p-4 border-b border-green-600 text-gray-400' >SHOP</li></a>
       
-            <li className='p-4 border-b border-green-600'>FEATURES</li>
-            <li className='p-4 border-b border-green-600'>BLOGS</li>
+            <li className='p-4 border-b border-green-600 text-gray-400'>FEATURES</li>
+            <li className='p-4 border-b border-green-600 text-gray-400'>BLOGS</li>
             <a href="/checkoutpage"> <li  className='p-4  border-green-600' >CART PAGE <span className='bg-red-500 rounded-2xl text-[12px] p-1 px-2'>2</span></li></a>
             
 
