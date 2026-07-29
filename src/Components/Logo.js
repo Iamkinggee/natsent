@@ -1,21 +1,18 @@
-import React from 'react'
-import Apple from '../Icons/Apple.png'
-import Body from './Main/Body'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Apple from '../Icons/Apple.png';
 
-function Logo() {
+function Logo({ light = false }) {
   return (
-    <>
-    <div className='w-[220px] md:w-[300px] flex'>
-
-      <a href='/' className='flex'>
-      <div className='w-5 '>
-         <img src={Apple}/>
+    <Link to="/" className="flex items-center gap-2 group cursor-pointer">
+      <div className="w-6 h-6 flex items-center justify-center">
+        <img src={Apple} alt="Apple Logo" className="w-full h-full object-contain filter group-hover:scale-110 transition-transform duration-200" />
       </div>
-      <p className='font-semibold text-[13px] pl-2 md:text-[20px]'> NATSENT iPhone Store</p> 
-      </a>
-    </div>
-    </>
-  )
+      <span className={`font-extrabold text-base sm:text-lg md:text-xl tracking-tight ${light ? 'text-white' : 'text-slate-900'}`}>
+        NATSENT <span className="text-emerald-600 font-normal">Store</span>
+      </span>
+    </Link>
+  );
 }
 
-export default Logo
+export default Logo;

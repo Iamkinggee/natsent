@@ -1,62 +1,40 @@
-import React from 'react'
-import InfoCard from './InfoCard'
-import Cart from '../../Icons/Cart.png'
-import Card from '../../Icons/Card.png'
-import Shield from '../../Icons/Shield.png'
-import customercare from '../../Icons/customercare.png'
+import React from 'react';
+import InfoCard from './InfoCard';
+import Cart from '../../Icons/Cart.png';
+import Card from '../../Icons/Card.png';
+import Shield from '../../Icons/Shield.png';
+import customercare from '../../Icons/customercare.png';
 
 function Info() {
   return (
+    <section className="w-full bg-slate-100/60 py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-200/60">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <InfoCard
+          image={<img loading="lazy" src={Cart} alt="Shipping Icon" className="w-8 h-8 object-contain" />}
+          cardtitle="FREE WORLDWIDE SHIPPING"
+          carddiscription="Enjoy complimentary delivery on all iPhone orders over $100."
+        />
 
-    <div className='w-full mt-7 '>
-    {/* <div className=''> */}
+        <InfoCard
+          image={<img loading="lazy" src={Card} alt="Payment Icon" className="w-8 h-8 object-contain" />}
+          cardtitle="SECURED PAYMENTS"
+          carddiscription="100% encrypted bank grade transaction security."
+        />
 
-      <div className='  justify-center items-center m-auto  md:flex  grid-cols-2 max-w-[1000px] '>
-     
-        <div className=' border-slate-300 border-r-2'>
-        <InfoCard   image={<img  loading='lazy' src={Cart} alt="Cart" className='  object-contain  p-3  bg-transparent' />} cardtitle="FREE SHIPPING" carddiscription="Free Shipping on world wide order over $100" />
-        </div>
+        <InfoCard
+          image={<img loading="lazy" src={Shield} alt="Warranty Icon" className="w-8 h-8 object-contain" />}
+          cardtitle="1 YEAR WARRANTY"
+          carddiscription="Full replacement and repair protection on certified devices."
+        />
 
-        <div className=' border-slate-300 border-r-2'>
-          
-        <InfoCard  image={<img  loading='lazy' src={Card} alt="Card" className='  object-contain  p-3  bg-transparent' />} cardtitle="SECURED PAYMENTS" carddiscription="Fast & secured payment system."/>
-        </div>
-
-
-        <div className=' border-slate-300 border-r-2'>
-        <InfoCard image={<img  loading='lazy' src={Shield} alt="Shield" className='  object-contain  p-3  bg-transparent' />}  cardtitle="TRUSTED PAY" carddiscription="Fast & secured payment system"/>
-
-        </div>
-
-
-        <div>
-        <InfoCard image={<img  loading='lazy' src={customercare} alt="Shield" className='  object-contain  p-3  bg-transparent' />}   cardtitle="RELIABLE CUSTOMER CARE" carddiscription="Free Shipping on world wide order over $100"/>
-
-        </div>
-
-            
-       
-
-       
-{/* 
-      </div> */}
-
-
-    </div>
-    </div>
-  )
+        <InfoCard
+          image={<img loading="lazy" src={customercare} alt="Support Icon" className="w-8 h-8 object-contain" />}
+          cardtitle="24/7 CUSTOMER CARE"
+          carddiscription="Dedicated Apple specialists ready to assist you anytime."
+        />
+      </div>
+    </section>
+  );
 }
 
-export default Info
-
-
-
-
-
-
-
-
-
-
-
-
+export default Info;

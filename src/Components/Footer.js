@@ -1,95 +1,70 @@
+import React from 'react';
+import Apple from '../Icons/Apple.png';
 
-import React from 'react'
-import Apple from '../Icons/Apple.png'
-
-function Footer () {
-
-
-
-
+function Footer() {
   return (
-<div className='w-full pb-5 max-w-[1000px] mx-auto flex-wrap text-[14px] md:text-[15px] grid md:grid-cols-4  md:grid-col-2 gap-4 text-black'>
-
-
-        <div className='pt-[50px] pl-3 md:col-span-2  col-span-1'>
-                <div className='flex '>
-                <div className='w-[15px] '> 
-                 <img src={Apple}/>
-                 </div>
-                <p className='font-bold px-3  md:text-[34px ]'> NATSENT iPhone Store</p>
-                </div>
-
-                <div>
-                <p className='flex-wrap md:text-[16px]  mt-3'>Many say exploration is part of our destiny, but it is actually our future.</p>
-                <p className='pt-2'>Address: B1, Fake Street,  Nigeria.</p>
-                <p className='pt-3'> Phone: 0901234567</p>
-                <p className='pt-3'>Email: info@natsent@gmail.com</p>
-                </div>
+    <footer className="w-full bg-slate-950 text-gray-400 py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-900">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        {/* Brand Info */}
+        <div className="md:col-span-1">
+          <div className="flex items-center gap-2 mb-3">
+            <img src={Apple} alt="Apple logo" className="w-6 h-6 brightness-200 invert" />
+            <span className="font-extrabold text-lg text-white tracking-tight">NATSENT Store</span>
+          </div>
+          <p className="text-xs text-gray-400 leading-relaxed mb-4">
+            Your trusted destination for certified iPhones, authentic accessories, fast delivery, and standard manufacturer warranty.
+          </p>
+          <div className="text-xs space-y-1.5 font-medium">
+            <p>📍 Address: B1, Tech Avenue, Victoria Island, Nigeria</p>
+            <p>📞 Phone: +234 901 283 4567</p>
+            <p>✉️ Email: support@natsentstore.com</p>
+          </div>
         </div>
 
-
-
-
-        <div className='col-span-2 flex justify-between mt-6 '>
-            <div className='justify-center items-center m-auto'>
-                <h6 className=' text-black font-bold'>COMPANY</h6>
-                <ul className='text-black'>
-                 <li className='pt-3 cursor-pointer'>Career</li>
-                 <li className='pt-3 cursor-pointer'>Brands</li>
-                 <li className='pt-3 cursor-pointer'>Help and FAQs</li>
-                 <li className='pt-3 cursor-pointer'>Consultants</li>
-                 <li className='pt-3 cursor-pointer'>Store Locations</li>
-              </ul>
-            </div>
-
-            
-
-
-
-
-
-
-            <div className='col-span-2 justify-center items-center m-auto '>
-                <h6 className='text-black font-bold '>POLICY INFO</h6>
-                <ul className='text-black'>
-                 <li className='pt-3 cursor-pointer ' >Orders</li>
-                 <li className='pt-3 cursor-pointer '>Advanced Search</li>
-                 <li className='pt-3 cursor-pointer'>Help and FAQs</li>
-                 <li className='pt-3 cursor-pointer'>Consultants</li>
-                 <li className='pt-3 cursor-pointer'>Store Locations</li>
-             </ul>
-            </div>
-        
-
-
-
-
-            <div className='col-span-2 justify-center items-center m-auto '>
-                <h6 className=' text-black font-bold'>MY ACCOUNT</h6>
-                <ul className='text-black'>
-                 <li className='pt-3 cursor-pointer'>About Us</li>
-                 <li className='pt-3 cursor-pointer'>Delivery information</li>
-                 <li className='pt-3 cursor-pointer'>Privacy policy</li>
-                 <li className='pt-3 cursor-pointer'>Terms and Conditions</li>
-                 <li className='pt-3 cursor-pointer'>Custom Links</li>
-              </ul>
-            </div>
-
+        {/* Company Links */}
+        <div>
+          <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+            Company
+          </h4>
+          <ul className="space-y-2 text-xs">
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">About Natsent</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Careers</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Our Outlets</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Consultants</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Store Locations</li>
+          </ul>
         </div>
 
-      
-        
-      
-    </div>
-  )
+        {/* Policy Info */}
+        <div>
+          <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+            Customer Policy
+          </h4>
+          <ul className="space-y-2 text-xs">
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Order Tracking</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Return & Exchange Policy</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Warranty Details</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Help & FAQs</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Privacy Policy</li>
+          </ul>
+        </div>
+
+        {/* Account Info */}
+        <div>
+          <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-4 border-b border-slate-800 pb-2">
+            My Account
+          </h4>
+          <ul className="space-y-2 text-xs">
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Shopping Cart</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Saved Wishlist</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Payment Options</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Terms & Conditions</li>
+            <li className="hover:text-emerald-400 transition-colors cursor-pointer">Support Desk</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
-
-
-
-
-
-
-
-
+export default Footer;
